@@ -5,20 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feature Showcase</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
     <header>
         <h1>Welcome to My Feature Showcase</h1>
     </header>
-    <main>
-        <section id="features">
-            <h2>Features</h2>
-            <p>Details about the features will go here.</p>
-        </section>
-    </main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Beautiful Features at Your Fingertips</h2>
+        <p>Scroll down to explore</p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product" data-aos="fade-up">
+                <img src="https://picsum.photos/200" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>High-quality product with amazing features.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="product" data-aos="fade-up" data-aos-delay="100">
+                <img src="https://picsum.photos/200" alt="Product 2">
+                <h3>Product 2</h3>
+                <p>Another top-notch product to consider.</p>
+                <button>Learn More</button>
+            </div>
+            <div class="product" data-aos="fade-up" data-aos-delay="200">
+                <img src="https://picsum.photos/200" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>Perfect for your needs with incredible value.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Curtis Williams</p>
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="js/scripts.js"></script>
+    <script>
+        AOS.init(); // Initialize animations
+    </script>
 </body>
 </html>
